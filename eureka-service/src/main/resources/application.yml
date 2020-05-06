@@ -1,0 +1,14 @@
+spring:
+ application:
+  name: eureka-service
+ cloud:
+  config:
+   uri: http://myLocalMachine.myDomain.lan:8888
+server:
+ port: 8302
+
+eureka:
+ cleint:
+  registerWithEureka: false
+  fetchRegistry: false
+  
